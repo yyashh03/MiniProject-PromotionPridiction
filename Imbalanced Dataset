@@ -1,0 +1,97 @@
+📊 Dataset Description: Employee Promotion Dataset
+
+This dataset contains employee-level information collected from an organization and is primarily used to predict whether an employee will be promoted or not.
+It is a binary classification problem commonly used in machine learning and HR analytics.
+
+Total records: 54,808 employees
+
+Total features: 13 columns
+
+Target variable: is_promoted
+
+🧩 Column-wise Description
+🆔 Identifiers
+
+employee_id
+Unique ID assigned to each employee.
+
+🏢 Employee Profile
+
+department
+Department in which the employee works
+(e.g., Sales & Marketing, Operations, Technology)
+
+region
+Office region or location code of the employee
+(e.g., region_7, region_22)
+
+education
+Highest education qualification
+(Bachelor's, Master's & above, etc.)
+
+gender
+Gender of the employee (m or f)
+
+age
+Age of the employee in years
+
+📋 Recruitment & Experience
+
+recruitment_channel
+Source through which the employee was hired
+(sourcing, other, referred)
+
+length_of_service
+Total years the employee has worked in the organization
+
+no_of_trainings
+Number of training programs attended by the employee
+
+⭐ Performance Indicators
+
+previous_year_rating
+Performance rating from the previous year
+(Scale: 1 to 5, may contain missing values)
+
+avg_training_score
+Average score achieved in training programs
+
+awards_won
+Whether the employee won any award
+
+0 → No
+
+1 → Yes
+
+🎯 Target Variable
+
+is_promoted
+Indicates whether the employee was promoted
+
+0 → Not Promoted
+
+1 → Promoted
+
+📌 Key Characteristics of the Dataset
+
+Imbalanced dataset
+Very few employees are promoted compared to non-promoted ones.
+
+Mixed data types
+
+Categorical: department, region, education, gender
+
+Numerical: age, training score, service length
+
+Real-world HR problem
+Used for promotion prediction, talent management, and performance analysis.
+
+🧠 Typical Use Cases
+
+Employee promotion prediction
+
+Classification algorithms (Logistic Regression, Decision Tree, Random Forest, XGBoost)
+
+Handling imbalanced classes
+
+Feature engineering & model evaluation
